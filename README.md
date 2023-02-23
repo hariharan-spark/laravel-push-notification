@@ -7,9 +7,15 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## ReferLink
-    Create Firebase : https://unitedwebsoft.in/blog/laravel-send-web-push-notification-with-firebase-tutorial
-    https://www.itsolutionstuff.com/post/laravel-firebase-push-notification-tutorialexample.html
+## Create Firebase 
+
+Create Firebase Project and get server key (https://console.firebase.google.com/)
+
+* Add Firebase to your web app
+
+* Get Firebase Cloud Messaging (FCM) 's Server Key
+
+* ReferLink : https://unitedwebsoft.in/blog/laravel-send-web-push-notification-with-firebase-tutorial
 
 ## About Laravel
 
