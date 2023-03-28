@@ -10,34 +10,33 @@ Initialize the Firebase app in the service worker by passing in the messagingSen
 * New configuration for app@pulseservice.com
 */
 firebase.initializeApp({
-    apiKey: "AIzaSyATjGZsscEIzj0SaFMzcepaYOcBI6",
-    authDomain: "test-notification-app-bdfb3.firebaseapp.com",
-    databaseURL: "https://XXXX.firebaseio.com",
-    projectId: "test-notification-app-bdfb3",
-    storageBucket: "test-notification-app-bdfb3.appspot.com",
-    messagingSenderId: "896281978896",
-    appId: "1:896281978896:web:fbec745f8bf60c78e28295",
-    measurementId: "G-W4ETNE60L6"
-    });
+  apiKey: "AIzaSyDYAkwnEOfcYiIZP2KzjuZIYUM10ujvuwc",
+  authDomain: "getitnow-app.firebaseapp.com",
+  projectId: "getitnow-app",
+  storageBucket: "getitnow-app.appspot.com",
+  messagingSenderId: "359419175780",
+  appId: "1:359419175780:web:de08d5644ede8dc5d31071",
+  measurementId: "G-HN63NY3SF6"
+});
   
 /*
 Retrieve an instance of Firebase Messaging so that it can handle background messages.
 */
 const messaging = firebase.messaging();
-messaging.setBackgroundMessageHandler(function(payload) {
-    console.log(
-        "[firebase-messaging-sw.js] Received background message ",
-        payload,
-    );
-    /* Customize notification here */
-    const notificationTitle = "Background Message Title";
-    const notificationOptions = {
-        body: "Background Message body.",
-        icon: "/itwonders-web-logo.png",
-    };
+// messaging.setBackgroundMessageHandler(function(payload) {
+//     console.log(
+//         "[firebase-messaging-sw.js] Received background message ",
+//         payload,
+//     );
+//     /* Customize notification here */
+//     const notificationTitle = "Background Message Title";
+//     const notificationOptions = {
+//         body: "Background Message body.",
+//         icon: "/itwonders-web-logo.png",
+//     };
   
-    return self.registration.showNotification(
-        notificationTitle,
-        notificationOptions,
-    );
-});
+//     return self.registration.showNotification(
+//         notificationTitle,
+//         notificationOptions,
+//     );
+// });

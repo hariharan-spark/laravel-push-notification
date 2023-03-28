@@ -41,15 +41,14 @@
 <script>
   
     var firebaseConfig = {
-        apiKey: "AIzaSyATjGZsscEIzj0SaFMzcepaYOcBI6-XSWU",
-        authDomain: "test-notification-app-bdfb3.firebaseapp.com",
-        databaseURL: "https://XXXX.firebaseio.com",
-        projectId: "test-notification-app-bdfb3",
-        storageBucket: "test-notification-app-bdfb3.appspot.com",
-        messagingSenderId: "896281978896",
-        appId: "1:896281978896:web:fbec745f8bf60c78e28295",
-        measurementId: "G-W4ETNE60L6"
-    };      
+                    apiKey: "AIzaSyDYAkwnEOfcYiIZP2KzjuZIYUM10ujvuwc",
+                    authDomain: "getitnow-app.firebaseapp.com",
+                    projectId: "getitnow-app",
+                    storageBucket: "getitnow-app.appspot.com",
+                    messagingSenderId: "359419175780",
+                    appId: "1:359419175780:web:de08d5644ede8dc5d31071",
+                    measurementId: "G-HN63NY3SF6"
+                    }; 
     firebase.initializeApp(firebaseConfig);
     const messaging = firebase.messaging();
   
